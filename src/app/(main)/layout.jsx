@@ -58,7 +58,7 @@ function PersonIcon(props) {
 }
 
 export default function MainLayout({ children }) {
-  let hosts = ['Eric Gordon', 'Wes Mantooth']
+  let hosts = ['Peter Marcano', 'Robert Schultze-Jena']
 
   return (
     <AudioProvider>
@@ -95,11 +95,11 @@ export default function MainLayout({ children }) {
           </Link>
           <div className="mt-10 text-center lg:mt-12 lg:text-left">
             <p className="text-xl font-bold text-slate-900">
-              <Link href="/">Their Side</Link>
+              <Link href="/">Key Pair</Link>
             </p>
             <p className="mt-3 text-lg font-medium leading-8 text-slate-700">
-              Conversations with the most tragically misunderstood people of our
-              time.
+              Two developers exploring Bitcoin, Lightning, and Nostr to build 
+              user-empowering apps.
             </p>
           </div>
           <AboutSection className="mt-12 hidden lg:block" />

@@ -12,7 +12,7 @@ export function AboutSection(props) {
     <section {...props}>
       <h2 className="flex items-center font-mono text-sm font-medium leading-7 text-slate-900">
         <TinyWaveFormIcon
-          colors={['fill-violet-300', 'fill-pink-300']}
+          colors={['fill-violet-300', 'fill-indigo-300']}
           className="h-2.5 w-2.5"
         />
         <span className="ml-2.5">About</span>
@@ -23,16 +23,16 @@ export function AboutSection(props) {
           !isExpanded && 'lg:line-clamp-4',
         )}
       >
-        In this show, Eric and Wes dig deep to get to the facts with guests who
-        have been labeled villains by a society quick to judge, without actually
-        getting the full story. Tune in every Thursday to get to the truth with
-        another misunderstood outcast as they share the missing context in their
-        tragic tale.
+        In this show, Pete and Rob explore building apps on the emerging crypto 
+        Internet, where users take back control of their data and privacy. Tune 
+        in Mondays to learn how Bitcoin, Lightning, and Nostr lay the 
+        foundations for a free and open internet, and how developers can 
+        leverage them to build next-generation apps.
       </p>
       {!isExpanded && (
         <button
           type="button"
-          className="mt-2 hidden text-sm font-bold leading-6 text-pink-500 hover:text-pink-700 active:text-pink-900 lg:inline-block"
+          className="mt-2 hidden text-sm font-bold leading-6 text-indigo-500 hover:text-indigo-700 active:text-indigo-900 lg:inline-block"
           onClick={() => setIsExpanded(true)}
         >
           Show more

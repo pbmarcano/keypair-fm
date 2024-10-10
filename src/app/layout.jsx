@@ -2,12 +2,12 @@ import '@/styles/tailwind.css'
 
 export const metadata = {
   title: {
-    template: '%s - Their Side',
+    template: '%s - Key Pair',
     default:
-      'Their Side - Conversations with the most tragically misunderstood people of our time',
+      'Key Pair - Two developers exploring Bitcoin, Lightning, and Nostr to build user-empowering apps',
   },
   description:
-    'Conversations with the most tragically misunderstood people of our time.',
+    'Two developers exploring Bitcoin, Lightning, and Nostr to build user-empowering apps',
 }
 
 export default function RootLayout({ children }) {
