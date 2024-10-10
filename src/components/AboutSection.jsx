@@ -23,8 +23,8 @@ export function AboutSection(props) {
           !isExpanded && 'lg:line-clamp-4',
         )}
       >
-        In this show, Pete and Rob explore building apps on the emerging crypto 
-        Internet, where users take back control of their data and privacy. Tune 
+        In this show, Pete and Rob explore building apps on the crypto web,
+        where users take back full control of their data and privacy. Tune 
         in Mondays to learn how Bitcoin, Lightning, and Nostr lay the 
         foundations for a free and open internet, and how developers can 
         leverage them to build next-generation apps.
