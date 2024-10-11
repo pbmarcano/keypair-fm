@@ -58,7 +58,7 @@ function PersonIcon(props) {
 }
 
 export default function MainLayout({ children }) {
-  let hosts = ['Peter Marcano', 'Robert Schultze-Jena']
+  let hosts = ['Pete', 'Robert']
 
   return (
     <AudioProvider>
