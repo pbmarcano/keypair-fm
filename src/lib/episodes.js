@@ -20,13 +20,13 @@ export async function getAllEpisodes() {
     ),
   })
 
-  let feed = await parseFeed('https://their-side-feed.vercel.app/api/feed')
+  let feed = await parseFeed('https://media.keypair.fm/feed')
   let items = parse(FeedSchema, feed).items
 
   let episodes = items.map(
     ({ id, title, description, content, enclosures, published }) => ({
       id,
-      title: `${id}: ${title}`,
+      title: title,
       published: new Date(published),
       description,
       content,

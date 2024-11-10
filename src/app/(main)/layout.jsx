@@ -117,14 +117,14 @@ export default function MainLayout({ children }) {
               className="mt-4 flex justify-center gap-10 text-base font-medium leading-7 text-slate-700 sm:gap-8 lg:flex-col lg:gap-4"
             >
               {[
-                ['Spotify', SpotifyIcon],
-                ['Apple Podcast', ApplePodcastIcon],
-                ['Overcast', OvercastIcon],
-                ['RSS Feed', RSSIcon],
-              ].map(([label, Icon]) => (
+                ['Spotify', SpotifyIcon, "/"],
+                ['Apple Podcast', ApplePodcastIcon, "/"],
+                ['Overcast', OvercastIcon, "/"],
+                ['RSS Feed', RSSIcon, "https://media.keypair.fm/feed"],
+              ].map(([label, Icon, url]) => (
                 <li key={label} className="flex">
                   <Link
-                    href="/"
+                    href={url}
                     className="group flex items-center"
                     aria-label={label}
                   >
