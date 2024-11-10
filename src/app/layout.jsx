@@ -14,6 +14,12 @@ export default function RootLayout({ children }) {
   return (
     <html lang="en" className="h-full bg-white antialiased">
       <head>
+        <link 
+          rel="alternate" 
+          type="application/rss+xml" 
+          title="RSS" 
+          href="https://media.keypair.fm/feed?title=Key+Pair+Podcast"
+        />
         <link
           rel="preconnect"
           href="https://cdn.fontshare.com"
