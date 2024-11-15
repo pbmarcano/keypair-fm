@@ -160,7 +160,7 @@ export default function MainLayout({ children }) {
                     /
                   </span>
                 )}
-                {host}
+                <Link href={urls[hostIndex]} className="hover:underline">{host}</Link>
               </Fragment>
             ))}
           </div>
