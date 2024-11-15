@@ -117,9 +117,9 @@ export default function MainLayout({ children }) {
               className="mt-4 flex justify-center gap-10 text-base font-medium leading-7 text-slate-700 sm:gap-8 lg:flex-col lg:gap-4"
             >
               {[
-                ['Spotify', SpotifyIcon, "/"],
-                ['Apple Podcast', ApplePodcastIcon, "/"],
-                ['Overcast', OvercastIcon, "/"],
+                ['Spotify', SpotifyIcon, "https://open.spotify.com/show/3KuLs9bWImsfyInOaYnSX7"],
+                ['Apple Podcast', ApplePodcastIcon, "https://podcasts.apple.com/us/podcast/key-pair/id1779782011"],
+                ['Overcast', OvercastIcon, "https://overcast.fm/itunes1779782011"],
                 ['RSS Feed', RSSIcon, "https://media.keypair.fm/feed"],
               ].map(([label, Icon, url]) => (
                 <li key={label} className="flex">
