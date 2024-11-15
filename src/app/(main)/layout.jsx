@@ -58,7 +58,11 @@ function PersonIcon(props) {
 }
 
 export default function MainLayout({ children }) {
-  let hosts = ['Pete', 'Robert']
+  let hosts = ['Peter Marcano', 'Robert SJ']
+  let urls = [
+    'https://njump.me/npub1marcan0laywmjprf4m8d34dr8m724a6jxxa56a5wwygcgj23q7nskfwmfg', 
+    'https://njump.me/npub1vppdwqmhlzhftstq5exturmry4u0pdfm93mqj4zfuuznhclxygfsdatk8w'
+  ]
 
   return (
     <AudioProvider>
@@ -73,7 +77,7 @@ export default function MainLayout({ children }) {
                     /
                   </span>
                 )}
-                {host}
+                <Link href={urls[hostIndex]} className="hover:underline">{host}</Link>
               </Fragment>
             ))}
           </span>
