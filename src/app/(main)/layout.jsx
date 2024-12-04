@@ -58,7 +58,7 @@ function PersonIcon(props) {
 }
 
 export default function MainLayout({ children }) {
-  let hosts = ['Peter Marcano', 'Robert SJ']
+  let hosts = ['Peter Marcano', 'Robert']
   let urls = [
     'https://njump.me/npub1marcan0laywmjprf4m8d34dr8m724a6jxxa56a5wwygcgj23q7nskfwmfg', 
     'https://njump.me/npub1vppdwqmhlzhftstq5exturmry4u0pdfm93mqj4zfuuznhclxygfsdatk8w'
