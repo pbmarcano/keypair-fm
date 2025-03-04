@@ -18,7 +18,7 @@ export default function RootLayout({ children }) {
           rel="alternate" 
           type="application/rss+xml" 
           title="RSS" 
-          href="https://media.keypair.fm/feed?title=Key+Pair+Podcast"
+          href="https://media.keypair.fm/feed.xml?title=Key+Pair+Podcast"
         />
         <link
           rel="preconnect"

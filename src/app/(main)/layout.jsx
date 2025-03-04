@@ -124,7 +124,7 @@ export default function MainLayout({ children }) {
                 ['Spotify', SpotifyIcon, "https://open.spotify.com/show/3KuLs9bWImsfyInOaYnSX7"],
                 ['Apple Podcast', ApplePodcastIcon, "https://podcasts.apple.com/us/podcast/key-pair/id1779782011"],
                 ['Overcast', OvercastIcon, "https://overcast.fm/itunes1779782011"],
-                ['RSS Feed', RSSIcon, "https://media.keypair.fm/feed"],
+                ['RSS Feed', RSSIcon, "https://media.keypair.fm/feed.xml"],
               ].map(([label, Icon, url]) => (
                 <li key={label} className="flex">
                   <Link

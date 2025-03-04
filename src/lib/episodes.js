@@ -20,7 +20,7 @@ export async function getAllEpisodes() {
     ),
   })
 
-  let feed = await parseFeed('https://media.keypair.fm/feed')
+  let feed = await parseFeed('https://media.keypair.fm/feed.xml')
   let items = parse(FeedSchema, feed).items
 
   let episodes = items.map(
